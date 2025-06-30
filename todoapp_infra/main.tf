@@ -5,6 +5,7 @@ module "resource_group" {
 
   
 }
+#ek story kr rha hun chek krne ke liye 
 module "virtual_network" {
     depends_on = [ module.resource_group ]
     source = "../Modules/azurerm_virtual_network"
